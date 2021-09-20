@@ -1,6 +1,6 @@
 {
   "name": "@jetsonjs/stateful-controller",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "build/index.js",
   "scripts": {
@@ -8,7 +8,11 @@
     "test": "mocha -r ts-node/register test/**/*.test.ts",
     "coverage": "nyc -r lcov -e .ts -x \"*.test.ts\" npm run test"
   },
-  "keywords": [ "nvidia-jetson", "raspberry pi", "stateful" ],
+  "keywords": [
+    "nvidia-jetson",
+    "raspberry pi",
+    "stateful"
+  ],
   "author": "Daniel Bowles",
   "license": "ISC",
   "dependencies": {
